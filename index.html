@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Ayesha • Iron Birthday</title><style>
+:root{--red:#b51218;--red2:#ed1c24;--gold:#ffc400;--dark:#07090d;--panel:#10151d;--blue:#54dfff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:radial-gradient(circle at 50% 20%,#202833 0,#090b10 45%,#030406 100%);color:#f6f6f6;min-height:100vh}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 40%,#ed1c2410 50%,transparent 60%);z-index:0}
+nav{position:sticky;top:0;z-index:20;background:#07090eee;border-bottom:1px solid #ffc40066;backdrop-filter:blur(10px);display:flex;justify-content:center;gap:10px;padding:12px;flex-wrap:wrap}
+nav a{color:#ffc400;text-decoration:none;font-weight:800;letter-spacing:1px;border:1px solid #ffc40055;padding:9px 15px;border-radius:8px;transition:.25s}
+nav a:hover{background:#ffc400;color:#090b10;box-shadow:0 0 18px #ffc40088}
+.page{position:relative;z-index:1;max-width:1100px;margin:auto;padding:55px 20px 80px}
+.hero{text-align:center;min-height:calc(100vh - 58px);display:flex;align-items:center;justify-content:center}
+.arc{width:130px;height:130px;margin:0 auto 25px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle,#fff 0 8%,#54dfff 9% 20%,#0a6e91 21% 35%,#0b1720 36% 48%,#54dfff 49% 53%,#10151d 54%);box-shadow:0 0 18px #54dfff,0 0 55px #54dfff88;animation:pulse 1.8s infinite}
+.arc span{font-size:30px;color:white;text-shadow:0 0 10px #54dfff}
+h1{font-size:clamp(3rem,10vw,7rem);line-height:.9;color:var(--gold);text-shadow:4px 4px 0 var(--red),0 0 28px #ffc40066}
+h1 span{color:#fff}
+.tag{font-size:clamp(1rem,3vw,1.4rem);color:#ddd;margin:24px auto;max-width:720px;line-height:1.6}
+.btn{display:inline-block;margin:8px;padding:13px 20px;border-radius:7px;text-decoration:none;font-weight:900;letter-spacing:.8px;background:linear-gradient(180deg,#e9292f,#8d0c11);color:white;border:1px solid #ffb000;box-shadow:0 0 18px #ed1c2438;cursor:pointer}
+.btn.gold{background:linear-gradient(180deg,#ffd447,#d89b00);color:#111}
+.section-title{text-align:center;color:var(--gold);font-size:clamp(2rem,6vw,3.5rem);margin-bottom:12px;text-transform:uppercase}
+.subtitle{text-align:center;color:#aaa;margin-bottom:35px}
+.panel{background:linear-gradient(145deg,#151b24,#090c11);border:1px solid #ffc40044;border-radius:14px;padding:28px;box-shadow:0 15px 45px #0008}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.photo{background:#0c1016;padding:7px;border:1px solid #ed1c2455;border-radius:10px;cursor:pointer;transition:.3s}
+.photo:hover{transform:translateY(-6px) scale(1.02);border-color:#ffc400;box-shadow:0 0 25px #ed1c2455}
+.photo img{display:block;width:100%;height:310px;object-fit:cover;border-radius:6px}
+.message{font-size:1.15rem;line-height:1.9;color:#ddd}
+.message strong{color:var(--gold)}
+.music{margin-top:28px;text-align:center;padding:18px;border:1px solid #54dfff55;border-radius:12px;background:#071016}
+audio{width:100%;max-width:500px;margin-top:12px}
+footer{text-align:center;padding:25px;color:#888;border-top:1px solid #ffc40033}
+.hud{font-family:monospace;color:#54dfff;font-size:.8rem;letter-spacing:2px;margin-bottom:14px}
+.lightbox{position:fixed;inset:0;background:#000e;display:none;align-items:center;justify-content:center;padding:20px;z-index:50}
+.lightbox img{max-width:95vw;max-height:90vh;border:2px solid var(--gold);box-shadow:0 0 40px #ed1c2477;border-radius:8px}
+.close{position:absolute;top:15px;right:25px;font-size:3rem;color:white;cursor:pointer}
+@keyframes pulse{50%{box-shadow:0 0 25px #54dfff,0 0 80px #54dfffaa}}
+@media(max-width:600px){.page{padding-top:35px}.photo img{height:260px}nav a{padding:8px 11px;font-size:.85rem}}
+</style></head><body>
+<nav><a href="index.html">HOME</a><a href="memories.html">MEMORIES</a><a href="message.html">MESSAGE</a></nav>
+<main class="page hero"><div>
+<div class="hud">STARK BIRTHDAY PROTOCOL // AYESHA-001</div>
+<div class="arc"><span>♥</span></div>
+<h1>HAPPY<br><span>BIRTHDAY</span><br>AYESHA</h1>
+<p class="tag">Suit up. It's your special day. ❤️<br>Today the whole system is running one mission: making sure Ayesha has an unforgettable birthday.</p>
+<a class="btn gold" href="memories.html">ENTER MEMORY VAULT →</a>
+<a class="btn" href="message.html">OPEN BIRTHDAY MESSAGE →</a>
+<div class="music"><b>🎵 SOCH — HARDY SANDHU</b><br><audio controls loop><source src="music/soch.mp3" type="audio/mpeg"></audio></div>
+</div></main><footer>⚡ STARK-STYLE BIRTHDAY SYSTEM • MADE WITH ❤️ FOR AYESHA</footer></body></html>
